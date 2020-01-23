@@ -1,7 +1,8 @@
 ### F2PY for the Protonated Water Potential from the Bowman group
 
 This repository will allow you to run the protatnted water PES from the 
-Bowman group very easily in Python through the use of 
+[Bowman](https://pubs.acs.org/doi/10.1021/jacs.7b05459) group very 
+easily in Python through the use of 
 [F2Py](https://docs.scipy.org/doc/numpy/f2py/). The first thing you will
 need is all the source code for the potential which, if you don't have,
 you will need to message me for either through email or Slack if you're
