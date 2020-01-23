@@ -7,7 +7,7 @@ class Potential:
 
     def __init__(self, natm):
         if self.has_been_loaded:
-            raise Exception("Can't load this dumb Bowman potential twice")
+            raise Exception("Can't load this potential twice")
         self._natm = natm
         self.load_potential()
 
