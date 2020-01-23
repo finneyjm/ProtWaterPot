@@ -47,9 +47,9 @@ class Potential:
 
     @staticmethod
     def compile_potential(called_from_error):
-        if called_from_error:
-            os.chdir("..")
-        else:
-            os.chdir(os.path.dirname(__file__))
+        # if called_from_error:
+        os.chdir("..")
+        # else:
+        #     os.chdir(os.path.dirname(__file__))
         import subprocess
         subprocess.call(["bash", "build.sh"])
