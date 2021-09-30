@@ -13,6 +13,7 @@ __pycache__/
 *.inc
 *.f
 *.o
+*.tar.gz
 Bowman_prot_water_pot.tar.gz
 Bowman_pot
 Coordinerds
@@ -20,6 +21,8 @@ CH5pot
 PES
 source_code
 coef
+Hydronium_PES
+.idea
 
 # C extensions
 *.so
