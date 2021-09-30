@@ -8,6 +8,14 @@
 # with f2py and don't want to have to write your
 # walkers to file over and over
 
+# Make some libraries to store all the terms and such
+mkdir lib
+cd lib
+mkdir watlib
+mkdir pes_lib
+cd pes_lib
+mkdir inv
+cd ../../
 # Compile the libraries for the 2-body interactions
 cd source_code/water_lib/2-body/pes
 ./mke
